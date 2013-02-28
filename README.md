@@ -6,6 +6,6 @@ this addon only copy tile function which is origially code by joshuawinn in the 
 I move the "copy title" menuitem to the top of the "tab context menu", which I think it should be there intuitively.
 
 To-do list:
-1. replace the external icon with the original firefox copy icon.
-2. accessory key binding.
-3. new base64 png icon 
+1. replace the external icon with the original firefox copy icon.\n
+2. accessory key binding.\n
+3. new base64 png icon \n
