@@ -1,0 +1,6 @@
+content   copytitledesc                 chrome/content/
+skin      copytitledesc   classic/1.0   chrome/skin/
+locale    copytitledesc   en-US         chrome/locale/en-US/
+locale    copytitledesc   zh-CN         chrome/locale/zh-CN/
+
+overlay   chrome://browser/content/browser.xul   chrome://copytitledesc/content/ff-overlay.xul
