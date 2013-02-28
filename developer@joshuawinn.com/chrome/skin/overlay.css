@@ -1,7 +1,8 @@
 #copytitlemenuitem {
  /*	color: purple;
    font-weight: bold;
-   background: "skin/icon.png";*/
+   background: url("skin/icon.png");
+   -moz-binding: url("chrome://global/content/bindings/general.xml#image");*/
 }
 #copytitlemenuitem:hover{
 	color: white;
