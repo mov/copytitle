@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://copytitledesc/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://copytitledesc/locale/overlay.dtd">
+<overlay id="copytitledesc-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="copytitledesc-strings" src="chrome://copytitledesc/locale/overlay.properties"/>
+  </stringbundleset>
+
+  <menupopup id="tabContextMenu">
+	<menuitem id="copytitlemenuitem" label="&copytitle.label;" tooltip="&copytitletooltip.label;" insertbefore="context_reloadTab" oncommand="copytitledesc.onCopyPageTitleText(event)"/>
+	<!--
+	<menu id="context-copytitledesc" label="&copytitledescContext.label;" insertafter="context_reloadTab">
+	  <menupopup id="copytitledesc-popup">
+		<menuitem label="&copytitle.label;" oncommand="copytitledesc.onCopyPageTitleText(event)"/>
+		<menuitem label="&copydesc.label;" oncommand="copytitledesc.onCopyPageDescText(event)"/>
+		<menuitem label="&copykeywords.label;" oncommand="copytitledesc.onCopyPageKeywordsText(event)"/>
+		<menuitem label="&copyhtml.label;" oncommand="copytitledesc.onCopyHTML(event)"/>
+	  </menupopup>
+	</menu>
+	-->
+  </menupopup>
+</overlay>

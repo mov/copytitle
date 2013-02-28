@@ -1,0 +1,6 @@
+<!ENTITY copytitledescContext.label "Copy tab Title">
+<!ENTITY copytitle.label "Copy title">
+<!ENTITY copydesc.label "Description">
+<!ENTITY copykeywords.label "Keywords">
+<!ENTITY copyhtml.label "All">
+<!ENTITY copytitletooltip.label "inserted by Jak">

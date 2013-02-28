@@ -1,0 +1,7 @@
+#copytitlemenuitem {
+ /*	color: purple;
+   font-weight: bold;*/
+}
+#copytitlemenuitem:hover{
+	color: white;
+}
