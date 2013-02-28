@@ -1,6 +1,7 @@
 #copytitlemenuitem {
  /*	color: purple;
-   font-weight: bold;*/
+   font-weight: bold;
+   background: "skin/icon.png";*/
 }
 #copytitlemenuitem:hover{
 	color: white;
