@@ -10,7 +10,7 @@
   </stringbundleset>
 
   <menupopup id="tabContextMenu">
-	<menuitem id="copytitlemenuitem" class="menuitem-iconic" src="chrome://copytitledesc/skin/icon.png" label="&copytitle.label;" tooltip="&copytitletooltip.label;" insertbefore="context_reloadTab" oncommand="copytitledesc.onCopyPageTitleText(event)"/>
+	<menuitem id="copytitlemenuitem" class="menuitem-iconic" src="chrome://copytitledesc/skin/icon.png" label="&copytitle.label;" accesskey="T" tooltip="&copytitletooltip.label;" insertbefore="context_reloadTab" oncommand="copytitledesc.onCopyPageTitleText(event)"/>
 	<!--
 	<menu id="context-copytitledesc" label="&copytitledescContext.label;" insertafter="context_reloadTab">
 	  <menupopup id="copytitledesc-popup">
